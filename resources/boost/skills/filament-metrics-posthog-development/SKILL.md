@@ -14,9 +14,9 @@ Use this skill when:
 
 ## Package Overview
 
-- **Package**: `jeffersongoncalves/filament-metrics-posthog` (branch `1.x` for Filament 3.x)
+- **Package**: `jeffersongoncalves/filament-metrics-posthog` (branch `2.x` for Filament 4.x)
 - **Namespace**: `JeffersonGoncalves\Filament\MetricsPostHog`
-- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^1.0`, `jeffersongoncalves/laravel-metrics-posthog:^1.0`
+- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^2.0`, `jeffersongoncalves/laravel-metrics-posthog:^1.0`
 - **Service Provider**: `JeffersonGoncalves\Filament\MetricsPostHog\PostHogMetricsServiceProvider`
 
 ## Version Compatibility

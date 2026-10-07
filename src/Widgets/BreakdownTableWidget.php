@@ -14,7 +14,7 @@ abstract class BreakdownTableWidget extends Widget
 {
     use InteractsWithPostHog;
 
-    protected static string $view = 'filament-metrics-posthog::widgets.breakdown-table';
+    protected string $view = 'filament-metrics-posthog::widgets.breakdown-table';
 
     protected int|string|array $columnSpan = 1;
 

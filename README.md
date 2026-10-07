@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Metrics PostHog](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-posthog/1.x/art/jeffersongoncalves-filament-metrics-posthog.png)
+![Filament Metrics PostHog](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-posthog/2.x/art/jeffersongoncalves-filament-metrics-posthog.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-metrics-posthog.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-posthog)
-[![Tests](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-posthog/tests.yml?branch=1.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-posthog/actions?query=workflow%3ATests+branch%3A1.x)
+[![Tests](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-posthog/tests.yml?branch=2.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-posthog/actions?query=workflow%3ATests+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-metrics-posthog.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-posthog)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-metrics-posthog.svg?style=flat-square)](LICENSE.md)
 
@@ -30,7 +30,7 @@ Built on top of [jeffersongoncalves/laravel-metrics-posthog](https://github.com/
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-metrics-posthog:"^1.0"
+composer require jeffersongoncalves/filament-metrics-posthog:"^2.0"
 ```
 
 Publish the settings migrations and run them:
@@ -85,7 +85,7 @@ With `widgets(false)` you can still place the widget classes on any page yoursel
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 3.x
+- Filament 4.x
 
 ## Testing
 

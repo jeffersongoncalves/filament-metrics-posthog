@@ -16,7 +16,7 @@ abstract class BreakdownChartWidget extends ChartWidget
 
     protected int|string|array $columnSpan = 1;
 
-    protected static ?string $maxHeight = '300px';
+    protected ?string $maxHeight = '300px';
 
     /**
      * @return list<StatsRow>
