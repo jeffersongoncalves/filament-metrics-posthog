@@ -6,7 +6,7 @@ PostHog web analytics dashboard widgets for Filament with a settings page powere
 
 @verbatim
 <code-snippet name="Install the plugin" lang="bash">
-composer require jeffersongoncalves/filament-metrics-posthog:"^2.0"
+composer require jeffersongoncalves/filament-metrics-posthog:"^3.0"
 php artisan vendor:publish --tag=metrics-posthog-settings-migrations
 php artisan migrate
 </code-snippet>
