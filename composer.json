@@ -1,0 +1,73 @@
+{
+    "name": "jeffersongoncalves/filament-metrics-posthog",
+    "description": "Filament plugin with PostHog dashboard widgets (realtime visitors, visitors chart, top pages, sources, countries, browsers and devices) and a Settings Page powered by Spatie Laravel Settings.",
+    "keywords": [
+        "jeffersongoncalves",
+        "laravel",
+        "filament",
+        "filament-plugin",
+        "filament-metrics-posthog",
+        "posthog",
+        "analytics",
+        "metrics",
+        "widgets",
+        "spatie-laravel-settings"
+    ],
+    "homepage": "https://github.com/jeffersongoncalves/filament-metrics-posthog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Gonçalves",
+            "email": "gerson.simao.92@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^3.0",
+        "jeffersongoncalves/filament-analytics-core": "^1.0",
+        "jeffersongoncalves/laravel-metrics-posthog": "^1.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^2.0|^3.0",
+        "laravel/pint": "^1.0",
+        "orchestra/testbench": "^8.0|^9.0",
+        "pestphp/pest": "^2.0|^3.0",
+        "pestphp/pest-plugin-laravel": "^2.0|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeffersonGoncalves\\Filament\\MetricsPostHog\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeffersonGoncalves\\Filament\\MetricsPostHog\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php ./vendor/bin/testbench package:discover --ansi"
+        ],
+        "analyse": "vendor/bin/phpstan analyse",
+        "format": "vendor/bin/pint",
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JeffersonGoncalves\\Filament\\MetricsPostHog\\PostHogMetricsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

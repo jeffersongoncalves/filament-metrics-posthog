@@ -1,0 +1,3 @@
+providers:
+  - JeffersonGoncalves\MetricsPostHog\MetricsPostHogServiceProvider
+  - JeffersonGoncalves\Filament\MetricsPostHog\PostHogMetricsServiceProvider
