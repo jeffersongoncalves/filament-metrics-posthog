@@ -6,6 +6,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Pages\SettingsPage;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\MetricsPostHog\Settings\PostHogSettings;
 
 class PostHogMetricsSettingsPage extends SettingsPage
@@ -16,7 +17,7 @@ class PostHogMetricsSettingsPage extends SettingsPage
 
     public static function getNavigationGroup(): string|\UnitEnum|null
     {
-        return __('filament-metrics-posthog::metrics-posthog.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-metrics-posthog') ?? __('filament-metrics-posthog::metrics-posthog.navigation_group');
     }
 
     public static function getNavigationLabel(): string
